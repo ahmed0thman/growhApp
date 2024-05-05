@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growth App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav id="nav-bar"  class="nav-bar">
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="imgs/logo.png" alt="">
+          </a>
+        </div>
+  
+        <div class="main-menu">
+          <ul>
+            <li>
+              <a class="nav-bar-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-bar-link" href="">About us</a>
+            </li>
+            <li>
+              <a class="nav-bar-link" href="">Blog</a>
+            </li>
+            <li>
+              <a class="nav-bar-link btn btn-light" href="">
+                <i class="fas fa-user"></i> Log In
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-bar-link btn btn-primary" href="">
+                <i class="fas fa-user-plus"></i> Sign Up
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Hamburger Button -->
+        <button id="hamburger-btn" class="hamburger-btn">
+           <div class="hamburger-line"></div>
+           <div class="hamburger-line"></div>
+           <div class="hamburger-line"></div>
+        </button>
+      </div>
+
+      <div id="mobile-menu" class="mobile-menu">
+        <ul>
+          <li>
+            <a class="nav-bar-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="">About us</a>
+          </li>
+          <li>
+            <a class="nav-bar-link" href="">Blog</a>
+          </li>
+          <li>
+            <a class="nav-bar-link btn btn-light" href="">
+              <i class="fas fa-user"></i> Log In
+            </a>
+
+            <a class="nav-bar-link btn btn-primary" href="">
+              <i class="fas fa-user-plus"></i> Sign Up
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="text-xxl hero-heading">
+          A powerful solution to grow your startup. Fast!
+        </h1>
+        <p class="hero-text">
+          Organize, Collaborate, and track progress
+          seamlessly with our
+          one-stop-shop startup growth tool.
+        </p>
+        <div class="hero-buttons">
+          <a href="" class="btn btn-primary">
+            Get Started
+          </a>
+          <a href="" class="btn btn-light">
+            <i class="fas fa-laptop"></i>
+            Book a Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="video bg-black">
+    <div class="container-sm">
+      <h2 class="video-heading text-xl text-center">
+        See how it works and get started in less than 2 minutes.
+      </h2>
+
+      <div class="video-content">
+        <a href="">
+          <img class="video-preview" src="imgs/video-preview.png" alt="">
+        </a>
+        <a href="" class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonial bg-dark">
+    <div class="container">
+      <h3 class="testimonial-heading text-xl">
+        Don't just take our word for it, see the success
+        stories form businesses just like yours.
+      </h3>
+
+      <div class="testimonial-grid">
+        <div class="card">
+          <p>
+            "Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Vivamus
+            commodo mauris in ante accumsan, eget ultrices velit interdum."
+          </p>
+          <p>
+            John Smith
+          </p>
+          <p>
+            ABC Corporation
+          </p>
+        </div>
+
+        <div class="card">
+          <p>
+            "Fusce sollicitudin augue eu velit
+            lacinia fringilla. Praesent sed felis
+            fermentum, suscipit est in, volutpat justo."
+          </p>
+          <p>
+            Michael Brown
+          </p>
+          <p>
+            Lorem Ipsum Industries
+          </p>
+        </div>
+
+        <div class="card">
+          <p>
+            "Integer sed quam sit amet purus
+            volutpat pretium. Cras posuere elit nec
+            nisl mollis, quis tincidunt eros tempor."
+          </p>
+          <p>
+            Sarah Davis
+          </p>
+          <p>
+            Acme Solutions
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+    <div class="container-sm">
+      <h3 class="pricing-heading text-xl text-center">
+        Pricing
+      </h3>
+      <p class="pricing-subheading text-md text-center">
+        start free and scale while you grow. No hidden fees.
+        Unlimited users for free.
+      </p>
+
+      <div class="pricing-grid">
+        <!-- pricing card one -->
+        <div class="card bg-light">
+          <div class="pricing-card-header">
+            <h4 class="pricing-card-heading text-xl">
+              Simple
+            </h4>
+            <p class="pricing-card-subheading">
+              Keep track of your contacts, again valuable insights, analyze
+              live data and performance.
+            </p>
+            <p class="pricing-card-price">
+              <span class="text-xl">Free</span>
+              *No credit card needed
+            </p>
+          </div>
+
+          <div class="pricing-card-body">
+            <ul>
+              <li>
+                <i class="fas fa-check"></i>
+                Limited access to basic features
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Ad-supported
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                500 MB of storage space
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Access to community forums
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Basic analytics dashboard
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Weekly newsletter updates
+              </li>
+            </ul>
+
+            <a href="" class="btn btn-primary btn-block">
+              Get started
+            </a>
+          </div>
+        </div>
+
+        <!-- pricing card two -->
+        <div class="card bg-dark">
+          <div class="pricing-card-header">
+            <h4 class="pricing-card-heading text-xl">
+              Premium
+            </h4>
+            <p class="pricing-card-subheading">
+              Keep track of your contacts, again valuable insights, analyze
+              live data and performance.
+            </p>
+            <p class="pricing-card-price">
+              <span class="text-xl">$49</span>
+              /month
+            </p>
+          </div>
+
+          <div class="pricing-card-body">
+            <ul>
+              <li>
+                <i class="fas fa-check"></i>
+                Full access to all features
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                No ads
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Priority email and chat support
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Exclusive content and features
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                10 GB of storage space
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Advanced analytics dashboard
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Early access to new features
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Customizable branding options
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Monthly webinar training sessions
+              </li>
+            </ul>
+
+            <a href="" class="btn btn-primary btn-block">
+              Get started
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="pricing-footer text-center">
+        All prices in USD and charged per month with applicable taxes
+        added at checkout.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq bg-light">
+    <div class="container-sm">
+      <h3 class="text-xl text-center">
+        Frequently Asked Questions
+      </h3>
+
+      <ul class="faq-menu">
+        <li class="active">All</li>
+        <li>Getting Started</li>
+        <li>Pricing</li>
+      </ul>
+
+      <div class="faq-content">
+
+        <div class="faq-item">
+          <div class="faq-item-header">
+            <h4 class="text-md">
+              How does the contact management feature help me keep track
+              of clients and partners?
+            </h4>
+            <i class="fas fa-minus"></i>
+          </div>
+          <div class="faq-item-body open">
+            <p>
+              Contact management systems provide a centralized database
+              where you can store all your client and partner information
+              in one place.
+              This allows you to easily access and manage contact details.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-item-header">
+            <h4 class="text-md">
+              What is cloud computing and how does it work?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-item-body">
+            <p>
+              Cloud computing is the delivery of computing services over the internet.
+              It allows users to access computing resources such as servers, storage,
+              databases, and software on-demand, without the need for on-premises
+              infrastructure. Cloud computing works by storing and managing data
+              in remote data centers and providing access to these resources via
+              the internet.
+            </p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-item-header">
+            <h4 class="text-md">
+              How can I improve my website's search engine ranking?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-item-body">
+            <p>
+              To improve your website's search engine ranking, focus on creating
+              high-quality, relevant content that addresses the needs and interests
+              of your target audience. Optimize your website for keywords related
+              to your content, improve page load speed, ensure mobile-friendliness,
+              and earn backlinks from reputable websites.
+            </p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-item-header">
+            <h4 class="text-md">
+              What are the key features to look for in email marketing software?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-item-body">
+            <p>
+              Key features to look for in email marketing software include
+              contact management, segmentation, automation, customizable
+              templates, analytics and reporting, integration with other
+              tools, and compliance with data privacy regulations.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-item-header">
+            <h4 class="text-md">
+              How can I secure my online accounts?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-item-body">
+            <p>
+              To secure your online accounts, use strong, unique passwords for each
+              account, enable two-factor authentication whenever possible, and be
+              cautious of phishing attempts. Regularly update your software and
+              keep an eye on your account activity for any suspicious behavior.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-item-header">
+            <h4 class="text-md">
+              What are the benefits of using project management software?
+            </h4>
+            <i class="fas fa-plus"></i>
+          </div>
+          <div class="faq-item-body">
+            <p>
+              Project management software helps teams collaborate more efficiently
+              by providing tools for task management, scheduling, and communication.
+              It improves project visibility, reduces manual effort, and enhances
+              overall productivity.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-black">
+    <div class="container">
+      <a href="index.html">
+        <img src="imgs/logo-white.png" alt="Logo">
+      </a>
+      <div class="footer-grid">
+        <div>
+          <div class="card">
+            <h4>Subscribe to Newsletter</h4>
+            <p class="text-sm">
+              Subscribe now to receive tips on how to take your business to
+              the next level.
+            </p>
+            <form action="">
+              <input type="email" name="" id="email" placeholder="Enter your email">
+              <button class="btn btn-primary btn-block" type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Process</a></li>
+            <li><a href="#">Join Our Team</a></li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Recent Projects</a></li>
+          </ul>
+        </div>
+  
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">hello@Growthapp.com</a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
